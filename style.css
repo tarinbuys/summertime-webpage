@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+/* Header Section: Logo + Nav Bar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    border-bottom: solid rgb(226, 226, 226) 1px;
+    padding: 10px 150px;
+}
+
+#branding {
+    display: flex;
+}
+
+#logo_text {
+    align-self: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    align-content: flex-end;
+} 
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.651);
+}
+/* Showcase Section*/
+#showcase {
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/photos/young-african-american-woman-drinking-green-juice-with-reusable-in-picture-id1331592415?b=1&k=20&m=1331592415&s=170667a&w=0&h=aj-09rkJm2U6L6Rt4NC-eadfkXD9bUa9BCJI1tTWbrc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 70px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.showcase_text {
+    font-size: 10vh;
+    letter-spacing: 15px;
+    line-height: 1.4em;
+    font-weight: 900;
+    color: rgb(238, 155, 0);
+    text-shadow: 2px 2px #00000031;
+    text-transform: uppercase;
+    
+}
+.showcase_span {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* About Us*/
+#about_us {
+    padding: 30px 150px;
+}
+h2 {
+    padding: 20px 0;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+.p1 {
+    width: 45%;
+}
+.p2 {
+    width: 45%;
+}
+#juices_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+/*Services / Products */
+.prod_heading {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 1.4em;
+    text-align: center;
+    padding-top: 30px;
+}
+.p3 {
+    padding: 20px 400px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.8em;
+    text-align: center;
+    
+}
+.products1, .products2 {
+    padding: 10px 150px;
+    display: flex;
+}
+.prods_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+
+}
+.prods_heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+.prods_p {
+    padding: 10px 50px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.greenjuice {
+    background-color: rgb(115, 233, 115);
+    margin: 20px;
+    border-radius: 5px;
+}
+.carrotjuice {
+    background-color: rgb(255, 201, 83);
+    margin: 20px;
+    border-radius: 5px;
+}
+.beetroot {
+    background-color: rgb(238, 111, 255);
+    margin: 20px;
+    border-radius: 5px;
+}
+.tomato {
+    background-color: rgb(255, 106, 106);
+    margin: 20px;
+    border-radius: 5px;
+}
+/*Gallery*/
+#gallery {
+    padding: 20px 150px;
+}
+.gallery_header {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    line-height: 1.4em;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.imgrow1, .imgrow2 {
+    display: flex;
+    padding-bottom: 30px;
+}
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    justify-content: space-between;
+}
+/*Pre-Footer Section */
+.pre-footer {
+    padding: 20px 150;
+}
+.contact_us {
+    display: flex;
+}
+.cnt_text {
+    padding: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+span {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_text {
+    width: 50%;
+}
+.contact_form {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+.submit_btn {
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 155, 0);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.submit_btn:hover {
+    background-color: rgba(238, 155, 0, 0.637);
+    cursor: pointer;
+}
+.name , .email {
+    padding: 5px 20px;
+    margin: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.comment {
+    padding: 5px 100px 50px 20px;
+    margin: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.follow_us_text {
+    padding: 40px 0 20px 0;
+    text-align: center;
+    color:black;
+}
+.social_icons {
+    display: inline-block;
+    width: 40px;
+}
+.icons {
+    padding: 10px 0px 40px 0;
+    display: flex;
+    justify-content: center;
+}
+/*Footer Section */
+.footer {
+    padding: 50px 150px;
+    background-color: black;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+.footer_img {
+    width: 200px;
+}
+.quick_links, .get_in_touch, .trading_hours{
+    padding: 10px 30px;
+}
+.links {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.linksl {
+    flex-direction: column;
+}
+.linksf {
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_p {
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright_text {
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
